@@ -31,14 +31,6 @@ export const uxProjects = [
         "In this page LAYER5 Products.",
     image: require("../../public/images/uiuxProjects/prodLayer5.png"),
   },
-  // {
-  //   id: 5,
-  //   title: "repairify",
-  //   projectName: "EASYSUBS",
-  //   projectDesc:
-  //     "A Startup which genrates Auto Captions.",
-  //   image: require("../../public/images/uiuxProjects/SubThumbnail.png"),
-  // },
   {
     id: 6,
     title: "Portfolio",

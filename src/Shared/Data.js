@@ -56,7 +56,7 @@ export const DevelopmentProjects = [
     title: "DIGITEA",
     desc: "In response to identified market challenges, the team collaborated and initiated 'DIGITEA'.",
     stack: "Next JS, CSS",
-    link: "https://github.com/C0deepak/digiteaWeb",
+    link: "https://digitea.in/",
     image: require("../../public/images/developmentProjects/digita.png"),
     color: "#CDF0EA",
   },

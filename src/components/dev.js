@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "@/styles/Dev.module.scss";
-import { DevelopmentProjects } from "@/Shared/data.js";
+import { DevelopmentProjects } from "../Shared/data";
 import Image from "next/image";
 
 const DevProjectCard = ({ development }) => {

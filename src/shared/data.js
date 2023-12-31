@@ -63,6 +63,15 @@ export const DevelopmentProjects = [
   },
   {
     id: 3,
+    title: "LAYER5 Products page",
+    desc: "Products page for LAYER5",
+    stack: "React, CSS",
+    link: "https://layer5.io/products",
+    image: require("../../public/images/uiuxProjects/prodLayer5.png"),
+    color: "#FAF4B7",
+  },
+  {
+    id: 4,
     title: "SOLARWAYZ TECHNOLOGIES",
     desc: "SOLARWAYZ TECHNOLOGIES offers solar permit design and proposal layout services to residential and commercial businesses in the US, with a team of skilled engineers and designers to assist in obtaining permits and deals. ",
     stack: "HTML5, CSS, Bootstrap",
@@ -71,7 +80,7 @@ export const DevelopmentProjects = [
     color: "#FFE6E6",
   },
   {
-    id: 4,
+    id: 5,
     title: "A Portfolio for a video editor.",
     desc: "In emphasis is on a seamless blend of creative storytelling and technical finesse.Each project, from cinematic narratives to promotional content, reflects versatility and a commitment to captivating visuals.",
     stack: "ReactJs, CSS",

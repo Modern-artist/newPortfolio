@@ -26,8 +26,8 @@ export default function Home() {
     <>
       <main>
         <HeroSection />
-        <UIUXSection />
         <DevProjects />
+        <UIUXSection />
         {/* <Gfx />
 
         <Blog /> */}

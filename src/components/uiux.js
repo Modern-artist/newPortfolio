@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "@/styles/UIUX.module.scss";
-import { uxProjects } from "@/shared/data";
+import { uxProjects } from "../shared/data";
 import Image from "next/image";
 
 const UxCard = ({ uxProject }) => {

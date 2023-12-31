@@ -1,4 +1,4 @@
-import { GfxDesigns } from "@/shared/data";
+import { GfxDesigns } from "../shared/data";
 import Image from "next/image";
 
 import styles from "@/styles/Gfx.module.scss";

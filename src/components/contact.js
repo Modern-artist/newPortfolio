@@ -3,6 +3,7 @@ import React from "react";
 /* STYLING */
 import styles from "@/styles/Contact.module.scss";
 /* ICONS */
+
 import { FaBehance } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";

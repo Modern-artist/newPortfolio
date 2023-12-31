@@ -1,4 +1,4 @@
-import { BlogData } from "../Shared/data.js";
+import { BlogData } from "@/Shared/data";
 import styles from "@/styles/Blog.module.scss";
 import Image from "next/image";
 const Blog = () => {

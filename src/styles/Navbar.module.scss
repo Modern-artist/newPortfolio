@@ -12,6 +12,18 @@
   font-size: 1.2rem;
   font-weight: 500;
   color: #e5c2ff;
+  @media screen and (max-width: 460px) {
+    display: none;
+  }
+}
+.smallnavbarName{
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #e5c2ff;
+  @media screen and (min-width: 460px) {
+    display: none;
+  }
 }
 
 .navbarContainer {

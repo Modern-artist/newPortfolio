@@ -21,6 +21,9 @@ const Navbar = () => {
               <Image src={TDMobile} alt="Logo" height={48} />
             </div> */}
           </Link>
+          <Link className={styles.smallnavbarName} href="/">
+            MA
+          </Link>
         </div>
         <div className={styles.navbarLinks}>
           <Link href="/">Home</Link>

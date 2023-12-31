@@ -33,12 +33,12 @@ const HeroSection = () => {
             <button>Check out my works!</button>
           </Link>
           <a
-            href="https://smallify.vercel.app/resume"
+            href="https://drive.google.com/file/d/1cZKarBFC3TvrlUNGKqn8Wu4YYAARKlOY/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.resume}
           >
-            View my Resume
+            See my Resume
           </a>
         </div>
       </div>

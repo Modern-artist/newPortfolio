@@ -2,9 +2,10 @@ import React from "react";
 import styles from "@/styles/UIUX.module.scss";
 import { uxProjects } from "../shared/data";
 import Image from "next/image";
+import { FiFigma } from "react-icons/fi";
 
 const UxCard = ({ uxProject }) => {
-  const { image, projectName, projectDesc } = uxProject;
+  const { image, projectName, link, projectDesc } = uxProject;
   return (
     <div
       className={styles.uxCardContainer}
@@ -17,6 +18,12 @@ const UxCard = ({ uxProject }) => {
       <div className={styles.uxCardInfo}>
         <h1>{projectName}</h1>
         <p>{projectDesc} </p>
+      </div>
+      <div className={styles.devProjectCardButton}>
+        <a href={link} target="_blank" rel="noreferrer">
+          
+          <button>Check out !</button>
+        </a>
       </div>
     </div>
   );

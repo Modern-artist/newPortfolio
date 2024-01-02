@@ -1,8 +1,27 @@
 export const uxProjects = [
   {
+    id: 5,
+    link: "https://www.figma.com/file/R4wXbcBjcngllk2jNgk5YW/Woolee?type=design&node-id=0%3A1&mode=design&t=rudxipk8xevFyjfx-1",
+    title: "repairify",
+    projectName: "Wool Trading application",
+    projectDesc:
+      "An App-based solution for the wool sector in India which have features like Wool Market Information, Wool Tracking, Quality Assurance, Wool Storage and Warehousing, Wool Processing, Wool Trading Platform, Online Wool Marketplace and Wool Education and Training",
+    image: require("../../public/images/uiuxProjects/wooleeThumb.png"),
+  },
+  {
+    id: 6,
+    link: "https://www.figma.com/file/1IVFMsgoK4mHFkcC7sCloc/Nath-Gaushala?type=design&node-id=0%3A1&mode=design&t=d45KTWHdeBVrgXLs-1",
+    title: "repairify",
+    projectName: "Animal healthcare donation page",
+    projectDesc:
+      "At Nath we embark on a sacred journey to preserve the cultural legacy of animals protection and foster a harmonious coexistence with nature. Our online sanctuary invites you to join hands in supporting this noble cause.",
+    image: require("../../public/images/uiuxProjects/donation.png"),
+  },
+  {
     id: 1,
     title: "Solution",
     projectName: "LAYER5 Solution Page",
+    link: "https://layer5.io",
     projectDesc:
       "Designed an application where users can securely store Passwords, Credit Cards, and Secure Notes.",
     image: require("../../public/images/uiuxProjects/solutionsL5.png"),
@@ -10,6 +29,7 @@ export const uxProjects = [
   {
     id: 2,
     title: "Alankar",
+    link: "https://www.figma.com/file/YLkM2OmNyAzxUffoblKyoe/ALANKAR?type=design&node-id=0%3A1&mode=design&t=1Yb6oFy3rB8bibqf-1",
     projectName: "Alankar",
     projectDesc:
       "Alankar promotes cultural understanding worldwide by exploring the richness of diverse traditions, fostering empathy for positive social change and a more inclusive world.",
@@ -18,6 +38,7 @@ export const uxProjects = [
   {
     id: 3,
     title: "Niramaya",
+    link: "https://www.figma.com/file/iJ1pOBLuvCjRD1nXNUUPKp/Ananta?type=design&node-id=90%3A131&mode=design&t=LXG6fXdjYPR2jxU4-1",
     projectName: "Niramaya",
     projectDesc:
       "A health appointment application streamlines the process of scheduling and managing doctor appointments, providing users with convenient and efficient access to healthcare services.",
@@ -25,15 +46,18 @@ export const uxProjects = [
     },
     {
       id: 4,
+      link: "https://www.figma.com/file/5ZwEkSJwUPitURD59YHMEN/Layer5-Designs?type=design&node-id=16250%3A22099&mode=design&t=prm2rQ3UifwgeLL4-1",
       title: "repairify",
       projectName: "Products Page LAYER5",
       projectDesc:
         "In this page LAYER5 Products.",
     image: require("../../public/images/uiuxProjects/prodLayer5.png"),
   },
+
   {
     id: 6,
     title: "Portfolio",
+    link: "https://www.figma.com/file/xSen3up6tiBZSeixQuM7T8/VideoPortfolio?type=design&node-id=0%3A1&mode=design&t=odoCLFmB37d7gTBI-1",
     projectName: "Video editing portfolio",
     projectDesc:
       "In emphasis is on a seamless blend of creative storytelling and technical finesse. Each project, from cinematic narratives to promotional content, reflects versatility and a commitment to captivating visuals.",
@@ -46,6 +70,15 @@ export const DevelopmentProjects = [
   {
     id: 1,
     title: "DIGITEA",
+    desc: "An App-based solution for the wool sector in India which have features like Wool Market Information, Wool Tracking, Quality Assurance, Wool Storage and Warehousing, Wool Processing, Wool Trading Platform, Online Wool Marketplace and Wool Education and Training",
+    stack: "React Native, JS, Expo",
+    link: "https://github.com/Modern-artist/Woolee",
+    image: require("../../public/images/uiuxProjects/wooleeThumb.png"),
+    color: "#CDF0EA",
+  },
+  {
+    id: 2,
+    title: "DIGITEA",
     desc: "In response to identified market challenges, the team collaborated and initiated 'DIGITEA'.",
     stack: "Next JS, CSS",
     link: "https://digitea.in/",
@@ -53,16 +86,16 @@ export const DevelopmentProjects = [
     color: "#CDF0EA",
   },
   {
-    id: 2,
+    id: 3,
     title: "LAYER5 Docs Site",
     desc: "Documentation Site for LAYER5 a CNCF Project",
     stack: "HUGO, SCSS, MD",
-    link: "https://docs.layer5.io",
+    link: "https://docs.layer5.io/cloud/",
     image: require("../../public/images/developmentProjects/docsL5.png"),
     color: "#FAF4B7",
   },
   {
-    id: 3,
+    id: 4,
     title: "LAYER5 Products page",
     desc: "Products page for LAYER5",
     stack: "React, CSS",
@@ -71,7 +104,7 @@ export const DevelopmentProjects = [
     color: "#FAF4B7",
   },
   {
-    id: 4,
+    id: 5,
     title: "SOLARWAYZ TECHNOLOGIES",
     desc: "SOLARWAYZ TECHNOLOGIES offers solar permit design and proposal layout services to residential and commercial businesses in the US, with a team of skilled engineers and designers to assist in obtaining permits and deals. ",
     stack: "HTML5, CSS, Bootstrap",
@@ -80,7 +113,7 @@ export const DevelopmentProjects = [
     color: "#FFE6E6",
   },
   {
-    id: 5,
+    id: 6,
     title: "A Portfolio for a video editor.",
     desc: "In emphasis is on a seamless blend of creative storytelling and technical finesse.Each project, from cinematic narratives to promotional content, reflects versatility and a commitment to captivating visuals.",
     stack: "ReactJs, CSS",

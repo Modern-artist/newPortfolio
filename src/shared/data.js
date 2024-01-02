@@ -69,7 +69,7 @@ export const uxProjects = [
 export const DevelopmentProjects = [
   {
     id: 1,
-    title: "DIGITEA",
+    title: "Wool Trading application",
     desc: "An App-based solution for the wool sector in India which have features like Wool Market Information, Wool Tracking, Quality Assurance, Wool Storage and Warehousing, Wool Processing, Wool Trading Platform, Online Wool Marketplace and Wool Education and Training",
     stack: "React Native, JS, Expo",
     link: "https://github.com/Modern-artist/Woolee",

@@ -1,5 +1,15 @@
 export const uxProjects = [
   {
+    id: 9,
+    title: "BIT Unfiltered",
+    projectName: "BIT Unfiltered",
+    link: "https://www.figma.com/design/XuGPyTEHEXPS1iwcD7P0un/BIT-unfiltered?node-id=508-245&t=yjTMvhkE6SGYJRjw-1",
+    projectDesc:
+      "Designed an educational and career development website of Students",
+    image: require("../../public/images/uiuxProjects/BITUnfiltered.jpeg"),
+  },
+
+  {
     id: 5,
     link: "https://www.figma.com/file/R4wXbcBjcngllk2jNgk5YW/Woolee?type=design&node-id=0%3A1&mode=design&t=rudxipk8xevFyjfx-1",
     title: "repairify",
@@ -67,6 +77,15 @@ export const uxProjects = [
 ];
 
 export const DevelopmentProjects = [
+  {
+    id: 0,
+    title: "BIT Unfiltered",
+    desc: "Designed an educational and career development website of Students.",
+    stack: "Next JS",
+    link: "https://bitunfiltered.vercel.app/",
+    image: require("../../public/images/uiuxProjects/BITUnfiltered.jpeg"),
+    color: "#CDF0EA",
+  },
   {
     id: 1,
     title: "Wool Trading application",

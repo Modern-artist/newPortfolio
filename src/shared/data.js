@@ -5,7 +5,7 @@ export const uxProjects = [
     projectName: "BIT Unfiltered",
     link: "https://www.figma.com/design/XuGPyTEHEXPS1iwcD7P0un/BIT-unfiltered?node-id=508-245&t=yjTMvhkE6SGYJRjw-1",
     projectDesc:
-      "Designed an educational and career development website of Students",
+      "Introducing Your All-in-One Student Toolkit: Build Portfolios & Resumes, Host Images, & Level Up Your Skills!",
     image: require("../../public/images/uiuxProjects/BITUnfiltered.jpeg"),
   },
 
@@ -52,15 +52,15 @@ export const uxProjects = [
     projectName: "Niramaya",
     projectDesc:
       "A health appointment application streamlines the process of scheduling and managing doctor appointments, providing users with convenient and efficient access to healthcare services.",
-      image: require("../../public/images/uiuxProjects/ananta.png"),
-    },
-    {
-      id: 4,
-      link: "https://www.figma.com/file/5ZwEkSJwUPitURD59YHMEN/Layer5-Designs?type=design&node-id=16250%3A22099&mode=design&t=prm2rQ3UifwgeLL4-1",
-      title: "repairify",
-      projectName: "Products Page LAYER5",
-      projectDesc:
-        "In this page LAYER5 Products.",
+    image: require("../../public/images/uiuxProjects/ananta.png"),
+  },
+  {
+    id: 4,
+    link: "https://www.figma.com/file/5ZwEkSJwUPitURD59YHMEN/Layer5-Designs?type=design&node-id=16250%3A22099&mode=design&t=prm2rQ3UifwgeLL4-1",
+    title: "repairify",
+    projectName: "Products Page LAYER5",
+    projectDesc:
+      "In this page LAYER5 Products.",
     image: require("../../public/images/uiuxProjects/prodLayer5.png"),
   },
 
@@ -80,7 +80,7 @@ export const DevelopmentProjects = [
   {
     id: 0,
     title: "BIT Unfiltered",
-    desc: "Designed an educational and career development website of Students.",
+    desc: "Introducing Your All-in-One Student Toolkit: Build Portfolios & Resumes, Host Images, & Level Up Your Skills!",
     stack: "Next JS",
     link: "https://bitunfiltered.vercel.app/",
     image: require("../../public/images/uiuxProjects/BITUnfiltered.jpeg"),

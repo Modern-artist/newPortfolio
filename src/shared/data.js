@@ -6,7 +6,7 @@ export const uxProjects = [
     link: "https://medium.com/@indrathegodofthunder/ui-ux-case-study-bit-unfiltered-d3255c13c8ca",
     projectDesc:
       "Introducing Your All-in-One Student Toolkit: Build Portfolios & Resumes, Host Images, & Level Up Your Skills!",
-    image: require("../../public/images/uiuxProjects/BITUnfiltered.jpeg"),
+    image: require("../../public/images/uiuxProjects/BITUnfiltered.png"),
   },
 
   {
@@ -63,7 +63,6 @@ export const uxProjects = [
       "In this page LAYER5 Products.",
     image: require("../../public/images/uiuxProjects/prodLayer5.png"),
   },
-
   {
     id: 6,
     title: "Portfolio",

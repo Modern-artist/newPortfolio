@@ -1,11 +1,11 @@
 export const uxProjects = [
   {
     id: 9,
-    title: "BIT Unfiltered",
-    projectName: "BIT Unfiltered(With Case Study)",
+    title: "GradAI",
+    projectName: "GradAI (With Case Study)",
     link: "https://medium.com/@indrathegodofthunder/ui-ux-case-study-bit-unfiltered-d3255c13c8ca",
     projectDesc:
-      "Introducing Your All-in-One Student Toolkit: Build Portfolios & Resumes, Host Images, & Level Up Your Skills!",
+      "GradAI this powerful AI tool is designed to enhancer your resume and help you land your dream job.",
     image: require("../../public/images/uiuxProjects/BITUnfiltered.png"),
   },
 
@@ -20,7 +20,7 @@ export const uxProjects = [
   },
   {
     id: 6,
-    link: "https://www.figma.com/file/1IVFMsgoK4mHFkcC7sCloc/Nath-Gaushala?type=design&node-id=0%3A1&mode=design&t=d45KTWHdeBVrgXLs-1",
+    link: "https://dribbble.com/shots/23315368-Donation-Page-for-NGO-s",
     title: "repairify",
     projectName: "Animal healthcare donation page",
     projectDesc:
@@ -78,10 +78,10 @@ export const uxProjects = [
 export const DevelopmentProjects = [
   {
     id: 0,
-    title: "BIT Unfiltered",
-    desc: "Introducing Your All-in-One Student Toolkit: Build Portfolios & Resumes, Host Images, & Level Up Your Skills!",
-    stack: "Next JS",
-    link: "https://bitunfiltered.vercel.app/",
+    title: "GradAI",
+    desc: "GradAI this powerful AI tool is designed to enhancer your resume and help you land your dream job.",
+    stack: "Next JS, Prisma, Tailwind",
+    link: "https://gradai.in/",
     image: require("../../public/images/uiuxProjects/BITUnfiltered.jpeg"),
     color: "#CDF0EA",
   },
@@ -179,19 +179,11 @@ export const GfxDesigns = [
 export const BlogData = [
   {
     id: 1,
-    title: "THE ALEGRIA EXPERIENCE #5: GRAPHICS COMMITTEE",
-    desc: "Students from the graphics team use their artistic abilities to communicate ideas and present them in a visual form... ",
-    image: require("../../public/images/blog-wp-2-1.png"),
-    link: "https://pillaialegria.wordpress.com/2022/12/25/the-alegria-experience-5-graphics-committee/",
-    date: "December 25, 2022",
-  },
-  {
-    id: 2,
-    title: "ZSH - The Z Shell for windows",
-
-    desc: "No WSL or WSL2 approach to install zsh on windows",
-    image: require("../../public/images/zsh.png"),
-    link: "https://github.com/TomcyT/zsh-for-windows",
+    title: "GradAI",
+    link: "https://medium.com/@indrathegodofthunder/ui-ux-case-study-bit-unfiltered-d3255c13c8ca",
+    desc:
+      "GradAI this powerful AI tool is designed to enhancer your resume and help you land your dream job.",
+    image: require("../../public/images/uiuxProjects/BITUnfiltered.png"),
     date: "December 25, 2022",
   },
 ];

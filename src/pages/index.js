@@ -28,9 +28,9 @@ export default function Home() {
         <HeroSection />
         <DevProjects />
         <UIUXSection />
-        {/* <Gfx />
+        {/* <Gfx /> */}
 
-        <Blog /> */}
+        <Blog />
         <ContactSection />
       </main>
     </>
